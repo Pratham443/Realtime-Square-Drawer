@@ -1,0 +1,32 @@
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+video {
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.note {
+    font-size: 15px;
+}
+
+.copyright_footer {
+    bottom: 0;
+    position: fixed;
+    color: white;
+    background-color: gray;
+    line-height: 3;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
